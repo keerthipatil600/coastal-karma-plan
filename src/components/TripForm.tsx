@@ -78,11 +78,11 @@ export function TripForm({
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault();
     const next: Record<string, string> = {};
-    if (days < 1 || days > 14) next.days = "Choose between 1 and 14 days.";
-    if (!travelDate) next.travelDate = "Pick a travel date.";
-    if (dailyBudget < 500) next.dailyBudget = "Enter at least ₹500 per person per day.";
-    if (travellers < 1 || travellers > 20) next.travellers = "Enter 1 to 20 travellers.";
-    if (interests.length === 0) next.interests = "Select at least one interest.";
+    if (days < 1 || days > 14) next["days"] = "Choose between 1 and 14 days.";
+    if (!travelDate) next["travelDate"] = "Pick a travel date.";
+    if (dailyBudget < 500) next["dailyBudget"] = "Enter at least ₹500 per person per day.";
+    if (travellers < 1 || travellers > 20) next["travellers"] = "Enter 1 to 20 travellers.";
+    if (interests.length === 0) next["interests"] = "Select at least one interest.";
     setErrors(next);
     if (Object.keys(next).length > 0) return;
 
