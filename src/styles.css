@@ -62,26 +62,29 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 0.875rem;
+  /* Coastal Karnataka palette: deep ocean teal, sand, coral & gold */
+  --background: oklch(0.965 0.017 92);
+  --foreground: oklch(0.28 0.045 179);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: oklch(0.28 0.045 179);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.28 0.045 179);
+  --primary: oklch(0.325 0.052 180);
+  --primary-foreground: oklch(0.975 0.015 92);
+  --secondary: oklch(0.455 0.066 180);
+  --secondary-foreground: oklch(0.98 0.012 92);
+  --muted: oklch(0.93 0.022 92);
+  --muted-foreground: oklch(0.48 0.03 179);
+  --accent: oklch(0.68 0.135 32);
+  --accent-foreground: oklch(0.99 0.008 92);
+  --gold: oklch(0.76 0.12 88);
+  --sand: oklch(0.955 0.021 92);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.704 0.04 256.788);
+  --border: oklch(0.885 0.026 92);
+  --input: oklch(0.885 0.026 92);
+  --ring: oklch(0.455 0.066 180);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
