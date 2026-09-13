@@ -58,7 +58,7 @@ export interface PlannedActivity {
 export interface DayPlan {
   day: number;
   city: CoastalCity;
-  travelNote?: string;
+  travelNote?: string | undefined;
   morning: PlannedActivity[];
   afternoon: PlannedActivity[];
   evening: PlannedActivity[];
