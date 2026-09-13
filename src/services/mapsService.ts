@@ -30,7 +30,7 @@ export const mapsService: MapsService = {
   buildRoute(cities: CoastalCity[]): MapRoute {
     let totalDistanceKm = 0;
     for (let i = 0; i < cities.length - 1; i += 1) {
-      totalDistanceKm += legDistanceKm(cities[i], cities[i + 1]);
+      totalDistanceKm += legDistanceKm(cities[i]!, cities[i + 1]!);
     }
     return {
       waypoints: cities.map((city) => ({ city, ...CITY_COORDINATES[city] })),
