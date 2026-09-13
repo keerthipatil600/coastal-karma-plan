@@ -12,7 +12,7 @@ export function legDistanceKm(from: CoastalCity, to: CoastalCity): number {
   const [lo, hi] = a < b ? [a, b] : [b, a];
   let total = 0;
   for (let i = lo; i < hi; i += 1) {
-    total += LEG_DISTANCES_KM[`${order[i]}-${order[i + 1]}`] ?? 0;
+    total += LEG_DISTANCES_KM[`${order[i]!}-${order[i + 1]!}`] ?? 0;
   }
   return total;
 }
