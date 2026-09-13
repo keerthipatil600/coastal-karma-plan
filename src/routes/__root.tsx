@@ -77,11 +77,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Coastal Karnataka Smart Travel Planner" },
+      {
+        name: "description",
+        content: "Plan smarter. Explore more. Travel your way — Mangaluru to Karwar.",
+      },
+      { property: "og:title", content: "Coastal Karnataka Smart Travel Planner" },
+      {
+        property: "og:description",
+        content: "Personalised coastal itineraries from Mangaluru to Karwar.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
